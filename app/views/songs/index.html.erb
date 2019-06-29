@@ -1,0 +1,12 @@
+<table>
+	<thead>
+		<tr>
+			<th>Title</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @songs.each do |song| %>
+			<tr><td><%= song.title %></td></tr>
+		<% end %>
+	</tbody>
+</table>
